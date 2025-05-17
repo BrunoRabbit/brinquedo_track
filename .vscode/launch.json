@@ -1,0 +1,21 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "sourceMaps": true,
+  "configurations": [
+    {
+      "name": "local",
+      "cwd": "${workspaceFolder}",
+      "program": "lib/main.dart",
+      "request": "launch",
+      "type": "dart",
+      "toolArgs": [
+        "--dart-define",
+        "API_URL=http://192.168.15.8:3000/",
+        "DEV=true"
+      ]
+    }
+  ]
+}
